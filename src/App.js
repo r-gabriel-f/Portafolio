@@ -20,6 +20,7 @@ function App() {
         <div className='nav-responsive'>
           <i class="fa-solid fa-bars"></i>
           <ion-icon name="menu-outline"></ion-icon>
+          <p>hola</p>
         </div>
       </header>
     </div>
