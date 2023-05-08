@@ -1,7 +1,6 @@
 import React from 'react'
 import './Encabezado.css'
 import logo from '../assets/img/logo.jpg';
-import { Inicio } from './Inicio';
 export const Encabezado = () => {
   return (
     <div className="container-header">

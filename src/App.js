@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <Encabezado></Encabezado> 
+      <br></br>
       <Inicio></Inicio>
     </div>
       
