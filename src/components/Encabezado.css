@@ -1,11 +1,13 @@
 *{
+    padding: 10;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 .container-header{
-    position: fixed;
+    margin-bottom: 20px;
+    background: red;
+    position: static;
     width: 100%;
     top: 0;
     left: 0;
@@ -14,6 +16,7 @@
     border-style: solid;
 }
 .container-header header{
+    position: flex;
     max-width: 1100px;
     margin: auto;
     display: flex;

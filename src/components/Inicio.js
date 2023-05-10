@@ -13,7 +13,6 @@ export const Inicio = () => {
             <div className='container-info'>
               <h2>Hola</h2>
               <h1>Soy Robert Gabriel</h1>
-              <h2>Ingeniero de Sistemas</h2>
               <h2>Desarrollador Front End</h2>
             </div>
             <div className='container-img-codi'>

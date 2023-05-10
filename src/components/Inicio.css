@@ -1,11 +1,12 @@
 
 .container-banner {
-    display: inline-flex;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+    margin-top: -100px;
 }
 
 .container-img img{
@@ -15,8 +16,10 @@
 }
 .container-info{
     width: 600px;
+    text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+
 }
 .container-info h1{
     color: aquamarine;
