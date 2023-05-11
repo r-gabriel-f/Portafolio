@@ -1,5 +1,30 @@
-.container-about{
-    background: blue;
-    display: static;
-    margin-bottom: 20px;
+.container-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  margin-top: -90px;
+  background: blue;
+}
+.container-div {
+  flex-basis: 50%;
+}
+
+.container-div #h1, .container-div #h3, .container-div #p{
+  margin-left: 50px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  text-align:justify;
+}
+.container-div #download{
+  text-align: center;
+}
+
+.container-icon {
+  flex-basis: 50%;
+}
+#html-icon {
+  color: #e54d26;
 }
