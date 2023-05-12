@@ -8,17 +8,46 @@
   margin-top: -90px;
   background: blue;
 }
+
+.container-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+  justify-content: center;
+}
+
+.iconos h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.iconos ion-icon {
+  font-size: 5em;
+}
+
+.iconos div {
+  margin-bottom: 10px;
+}
 .container-div {
   flex-basis: 50%;
 }
 
-.container-div #h1, .container-div #h3, .container-div #p{
+.container-div #h1,
+.container-div #h3,
+.container-div #p {
   margin-left: 50px;
   margin-right: 40px;
   margin-bottom: 30px;
-  text-align:justify;
+  text-align: justify;
 }
-.container-div #download{
+.container-div #download {
   text-align: center;
 }
 
@@ -26,5 +55,46 @@
   flex-basis: 50%;
 }
 #html-icon {
-  color: #e54d26;
+  color: #e54c21;
+}
+#css-icon {
+  color: #2196f3;
+}
+#js-icon {
+  color: #f0db4f;
+}
+#angular-icon {
+  color: #de002d;
+}
+#react-icon {
+  color: #61dbfb;
+}
+#github-icon {
+  color: #0d2636;
+}
+
+#git-icon {
+  filter: hue-rotate(0deg);
+  color: red;
+}
+.iconos div ion-icon:hover {
+  transform: rotate(360deg);
+  transition: transform 1.5s ease-in-out;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .iconos {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

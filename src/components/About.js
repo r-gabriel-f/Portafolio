@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import Button from "@mui/material/Button";
 import cv from "../assets/cv/gabriel.pdf";
+
 export const About = () => {
   return (
     <section className="container-about">
@@ -24,9 +25,31 @@ export const About = () => {
       </div>
       <div className="container-icon">
         <h1>Mis Habilidades</h1>
-        <div>
-          <h1>HTML5</h1>
-          <ion-icon name="logo-html5" id="html-icon"></ion-icon>
+        <div className="iconos">
+          <div>
+            <h3>HTML</h3>
+            <ion-icon name="logo-html5" id="html-icon"></ion-icon>
+          </div>
+          <div>
+            <h3>CSS</h3>
+            <ion-icon name="logo-css3" id="css-icon"></ion-icon>
+          </div>
+          <div>
+            <h3>JS</h3>
+            <ion-icon name="logo-nodejs" id="js-icon"></ion-icon>
+          </div>
+          <div>
+            <h3>ANGULAR</h3>
+            <ion-icon name="logo-angular" id="angular-icon"></ion-icon>
+          </div>
+          <div>
+            <h3>REACT</h3>
+            <ion-icon name="logo-react" id="react-icon"></ion-icon>
+          </div>
+          <div>
+            <h3>GITHUB</h3>
+            <ion-icon name="logo-github" id="react-icon"></ion-icon>
+          </div>
         </div>
       </div>
     </section>
