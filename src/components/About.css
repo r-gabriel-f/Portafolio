@@ -14,6 +14,9 @@
   flex-direction: column;
   align-items: center;
 }
+.container-icon .skills{
+  margin-bottom: 70px ;
+}
 
 .iconos {
   display: grid;
@@ -54,34 +57,24 @@
 .container-icon {
   flex-basis: 50%;
 }
-#html-icon {
-  color: #e54c21;
-}
-#css-icon {
-  color: #2196f3;
-}
-#js-icon {
-  color: #f0db4f;
-}
-#angular-icon {
-  color: #de002d;
-}
-#react-icon {
-  color: #61dbfb;
-}
+#html-icon,#css-icon,
+#js-icon,
+#angular-icon,
+#react-icon,
 #github-icon {
-  color: #0d2636;
+  width: 70px;
+  height: 70px;
 }
-
-#git-icon {
-  filter: hue-rotate(0deg);
-  color: red;
-}
-.iconos div ion-icon:hover {
+#html-icon:hover {
   transform: rotate(360deg);
   transition: transform 1.5s ease-in-out;
-}
+  }
 
+
+
+#te{
+  margin-left: -7.5px;
+}
 @keyframes mover {
   0% {
     transform: translateY(0);
