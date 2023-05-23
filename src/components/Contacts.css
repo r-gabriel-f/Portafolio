@@ -1,0 +1,66 @@
+.container-contacts {
+  display: flexbox;
+  height: 40vh;
+  box-sizing: border-box;
+  margin-top: -10px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.container-icons-contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.container-icons-contacts a {
+  text-decoration: none;
+  color: black;
+}
+.container-contacts .container-icons-contacts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  text-align: center;
+}
+#iconos-contacto-email,
+#iconos-contacto-sw,
+#iconos-contacto-tw,
+#iconos-contacto-git,
+#iconos-contacto-link {
+  width: 50px;
+  height: 50px;
+  color: black;
+  transition: transform 0.3s ease;
+}
+#iconos-contacto-email:hover {
+  color: #f0a624;
+  transform: rotate3d(1, 0, 0, 360deg);
+}
+#iconos-contacto-sw:hover {
+  color: #1acc3e;
+  transform: rotate3d(1, 0, 0, 360deg);
+}
+#iconos-contacto-tw:hover {
+  color: #1c93e4;
+  transform: rotate3d(1, 0, 0, 360deg);
+}
+#iconos-contacto-git:hover {
+  color: #0c2433;
+  transform: rotate3d(1, 0, 0, 360deg);
+}
+#iconos-contacto-link:hover {
+  color: #026eaa;
+  transform: rotate3d(1, 0, 0, 360deg);
+}
+
+.container-div-contactas p {
+  margin-bottom: 50px;
+}
+.container-div-contactas h1 {
+  margin-bottom: 20px;
+}
+.Derechos {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}

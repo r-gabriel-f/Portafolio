@@ -36,5 +36,5 @@
 #img-icon:hover {
   transform: scale(
     1.2
-  ); /* Escala la imagen al 120% cuando se pasa el mouse sobre ella */
+  ); 
 }

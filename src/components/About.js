@@ -16,7 +16,7 @@ export const About = () => {
       <div className="container-div">
         <h1 id="h1">Sobre Mi</h1>
         <h3 id="h3">
-          Soy Robert Gabriel, Desarrollador Web/ Ingeniero de Sistemas
+          Soy Robert Gabriel, Desarrollador Front End / Ingeniero de Sistemas
         </h3>
         <p id="p">
           Hola, mi nombre es Robert Gabriel y soy un apasionado desarrollador

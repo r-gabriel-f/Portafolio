@@ -4,6 +4,8 @@ import { Encabezado } from "./components/Encabezado";
 import { Inicio } from "./components/Inicio";
 import { About } from "./components/About";
 import { Services } from "./components/Services";
+import Contacts from "./components/Contacts";
+
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
       </div>
       <div>
         <Services></Services>
+      </div>
+      <div>
+        <Contacts></Contacts>
       </div>
     </form>
   );
