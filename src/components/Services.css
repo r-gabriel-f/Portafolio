@@ -1,25 +1,16 @@
 .container-services {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  padding: 10px;
   box-sizing: border-box;
-  margin-top: -10px;
+  background-color: red;
+}
+.mar-service{
   margin-left: 50px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
-.container-obejtivo p{
-  margin-bottom: 50px;
-}
-.container-obejtivo h1{
-  margin-bottom: 20px;
-}
-.iconos-services .services-div{
-  margin-bottom: 50px;
-}
-.services-div h3,img,p{
-  margin-bottom: 20px;
-}
+
 .container-services .iconos-services {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -27,14 +18,35 @@
   justify-items: center;
   text-align: center;
 }
+
+
+.container-obejtivo p {
+  margin-bottom: 30px;
+  
+}
+
+.container-obejtivo h1 {
+  margin-bottom: 20px;
+}
+
+.iconos-services .services-div {
+  margin-bottom: 30px;
+}
+
+.services-div h3,
+.services-div img,
+.services-div p {
+  margin-bottom: 15px;
+  
+}
+
 #img-icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   transition: transform 0.3s ease;
 }
 
 #img-icon:hover {
-  transform: scale(
-    1.2
-  ); 
+  transform: scale(1.2);
 }
+

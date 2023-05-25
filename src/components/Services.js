@@ -10,7 +10,7 @@ import seo from "../assets/iconos/services/seo.png";
 export const Services = () => {
   return (
     <section className="container-services">
-      <div>
+      <div className="mar-service">
         <div className="container-obejtivo">
           <h1>Servicios</h1>
           <p>

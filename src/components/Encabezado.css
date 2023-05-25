@@ -1,53 +1,107 @@
-*{
-    padding: 10;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+.container-header {
+  background: #1976d2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  border-color: white;
+  border-style: solid;
 }
-.container-header{
-    margin-bottom: 20px;
-    background: red;
-    position: static;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    border-color: black;
-    border-style: solid;
-}
-.container-header header{
-    position: flex;
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-}
-.logo img{
-    width: 100px;
-    height: 50px;
-    position: static;
-}
-#nav ul{
-    display: flex;
-    list-style: none;
-}
-#nav ul li a{
-    text-align: none;
-    color: black;
-    margin: 0 15px;
-    padding: 3px;
-    transition: .5s;
-    text-decoration: none;
 
+.container-header header {
+  position: flex;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#nav ul li a:hover{
-    color: blue;
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
 }
-.nav-responsive{
-    padding: apx 10px;
-    border-radius: 5px;
-    cursor: pointer;
+
+.code-p {
+  margin-top: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo ion-icon {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+#nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#nav ul li a {
+  text-align: none;
+  color: white;
+  margin-right: 20px;
+  padding: 8px 15px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#nav ul li a:hover {
+  background-color: #1871ca;
+}
+
+.nav-responsive {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Media Query para el diseño responsive */
+@media (max-width: 768px) {
+  .logo {
+    margin-right: auto;
+  }
+
+  #nav ul {
     display: none;
+  }
+
+  .nav-responsive {
+    display: block;
+  }
+
+  .nav-responsive ion-icon {
+    color: white;
+    font-size: 25px;
+  }
+
+  .nav-responsive .fa-bars {
+    color: white;
+    font-size: 20px;
+  }
+
+  #nav ul.active {
+    display: block;
+    position: absolute;
+    background-color: #1976d2;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  #nav ul.active li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  #nav ul.active li a {
+    margin-right: 0;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid white;
+  }
 }

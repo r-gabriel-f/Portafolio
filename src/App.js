@@ -1,10 +1,13 @@
-import logo from "./logo.svg";
+
 import "./App.css";
-import { Encabezado } from "./components/Encabezado";
+
 import { Inicio } from "./components/Inicio";
 import { About } from "./components/About";
 import { Services } from "./components/Services";
 import Contacts from "./components/Contacts";
+import { Encabezado } from "./components/Encabezado";
+
+
 
 
 function App() {
@@ -13,16 +16,16 @@ function App() {
       <div>
         <Encabezado></Encabezado>
       </div>
-      <div>
+      <div id="i">
         <Inicio></Inicio>
       </div>
-      <div>
+      <div id="i">
         <About></About>
       </div>
-      <div>
+      <div id="i">
         <Services></Services>
       </div>
-      <div>
+      <div id="i">
         <Contacts></Contacts>
       </div>
     </form>

@@ -1,24 +1,35 @@
 .container-contacts {
-  display: flexbox;
-  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   box-sizing: border-box;
-  margin-top: -10px;
+  background-color: green;
+
+}
+.con-with{
   margin-left: 50px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 .container-icons-contacts {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 40px;
+  width: 250px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-icons-contacts a {
   text-decoration: none;
   color: black;
+  
+}
+.container-div-contactas p{
+  text-align: justify;
 }
 .container-contacts .container-icons-contacts {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
+  grid-gap: 150px;
   justify-items: center;
   text-align: center;
 }
@@ -32,25 +43,25 @@
   color: black;
   transition: transform 0.3s ease;
 }
-#iconos-contacto-email:hover {
+#iconos-contacto-email {
   color: #f0a624;
-  transform: rotate3d(1, 0, 0, 360deg);
+  
 }
-#iconos-contacto-sw:hover {
+#iconos-contacto-sw {
   color: #1acc3e;
-  transform: rotate3d(1, 0, 0, 360deg);
+  
 }
-#iconos-contacto-tw:hover {
+#iconos-contacto-tw {
   color: #1c93e4;
-  transform: rotate3d(1, 0, 0, 360deg);
+  
 }
-#iconos-contacto-git:hover {
+#iconos-contacto-git{
   color: #0c2433;
-  transform: rotate3d(1, 0, 0, 360deg);
+  
 }
-#iconos-contacto-link:hover {
+#iconos-contacto-link {
   color: #026eaa;
-  transform: rotate3d(1, 0, 0, 360deg);
+  
 }
 
 .container-div-contactas p {

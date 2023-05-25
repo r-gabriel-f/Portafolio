@@ -4,6 +4,7 @@ import "./Contacts.css";
 export default function Contacts() {
   return (
     <section className="container-contacts">
+      <div className="con-with">
       <div className="container-div-contactas">
         <h1>Contactos</h1>
         <p>
@@ -49,6 +50,10 @@ export default function Contacts() {
       <footer className="Derechos">
         <p>&copy; 2023 Robert Gabriel. <br/>Todos los derechos reservados.</p>
       </footer>
+
+      </div>
+      
+      
     </section>
   );
 }

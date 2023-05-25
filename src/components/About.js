@@ -13,6 +13,7 @@ import react from "../assets/iconos/skills/react.png";
 export const About = () => {
   return (
     <section className="container-about">
+      
       <div className="container-div">
         <h1 id="h1">Sobre Mi</h1>
         <h3 id="h3">
