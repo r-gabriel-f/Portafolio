@@ -7,13 +7,12 @@ import html from "../assets/iconos/skills/html.png";
 import js from "../assets/iconos/skills/js.png";
 import css from "../assets/iconos/skills/css.png";
 import git from "../assets/iconos/skills/git.png";
-import angular  from "../assets/iconos/skills/angular.png";
+import angular from "../assets/iconos/skills/angular.png";
 import react from "../assets/iconos/skills/react.png";
 
 export const About = () => {
   return (
     <section className="container-about">
-      
       <div className="container-div">
         <h1 id="h1">Sobre Mi</h1>
         <h3 id="h3">
@@ -27,7 +26,9 @@ export const About = () => {
         </p>
         <div id="download">
           <a href={cv} download="CV_Robert_Gabriel.pdf">
-            <Button variant="contained">Descargar CV</Button>
+            <Button variant="contained" id="bt">
+              Descargar CV
+            </Button>
           </a>
         </div>
       </div>

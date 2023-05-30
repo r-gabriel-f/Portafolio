@@ -1,38 +1,38 @@
-
 import "./App.css";
-
+import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
+import DrawerAppBar from "./components/DrawerAppBar";
 import { Inicio } from "./components/Inicio";
 import { About } from "./components/About";
-import { Services } from "./components/Services";
 
-import { Encabezado } from "./components/Encabezado";
-import DrawerAppBar from "./components/DrawerAppBar";
+import { Services } from "./components/Services";
 import Contacts from "./components/Contacts";
 
-
-
+import { Element } from "react-scroll";
 
 
 function App() {
   return (
-    <form className="container-div">
+    <BrowserRouter>
       <div>
-        <DrawerAppBar></DrawerAppBar>
+        <DrawerAppBar />
+        <Element name="inicio">
+          <Inicio />
+        </Element>
+        <Element name="sobre-mi">
+          <About />
+        </Element>
+        <Element name="servicios">
+          <Services />
+        </Element>
+        <Element name="contactos">
+          <Contacts />
+        </Element>
       </div>
-      <div id="i">
-        <Inicio></Inicio>
-      </div>
-      <div id="i">
-        <About></About>
-      </div>
-      <div id="i">
-        <Services></Services>
-      </div>
-      <div id="i">
-        <Contacts></Contacts>
-      </div>
-    </form>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
+
+

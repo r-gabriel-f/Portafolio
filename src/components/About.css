@@ -5,13 +5,11 @@
   height: 100vh;
   box-sizing: border-box;
   margin-top: -90px;
-
-
-
-
 }
 
-
+#bt {
+  background-color: #25292b;
+}
 
 .container-icon {
   display: flex;
@@ -74,4 +72,55 @@
 #html-icon:hover {
   transform: rotate(360deg);
   transition: transform 1.5s ease-in-out;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  .container-about {
+    flex-direction: column;
+    margin-top: 0;
+    padding: 20px;
+    height: auto;
+  }
+
+  .container-icon {
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .iconos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 100px;
+  }
+
+  .iconos img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .container-div,
+  .container-icon {
+    flex-basis: auto;
+  }
+
+  .container-div #h1,
+  .container-div #h3,
+  .container-div #p {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media screen and (min-width: 768px) {
+  .iconos {
+    gap: 50px;
+  }
+
+  .iconos img {
+    width: 60px;
+    height: 60px;
+  }
 }
