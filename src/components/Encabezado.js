@@ -17,9 +17,7 @@ export const Encabezado = () => {
             <li>
               <a href="#about">SOBRE MI</a>
             </li>
-            <li>
-              <a href="#skills">HABILIDADES</a>
-            </li>
+            
             <li>
               <a href="#services">SERVICIOS</a>
             </li>

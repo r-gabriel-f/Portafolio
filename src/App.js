@@ -4,8 +4,11 @@ import "./App.css";
 import { Inicio } from "./components/Inicio";
 import { About } from "./components/About";
 import { Services } from "./components/Services";
-import Contacts from "./components/Contacts";
+
 import { Encabezado } from "./components/Encabezado";
+import DrawerAppBar from "./components/DrawerAppBar";
+import Contacts from "./components/Contacts";
+
 
 
 
@@ -14,7 +17,7 @@ function App() {
   return (
     <form className="container-div">
       <div>
-        <Encabezado></Encabezado>
+        <DrawerAppBar></DrawerAppBar>
       </div>
       <div id="i">
         <Inicio></Inicio>
