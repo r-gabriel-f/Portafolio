@@ -4,7 +4,7 @@
   justify-content: center;
   height: 100vh;
   box-sizing: border-box;
-  background-image: url("../assets/img/fondo.avif");
+  background-color: #1e1f26;
   background-size: cover;
   background-position: center;
 }

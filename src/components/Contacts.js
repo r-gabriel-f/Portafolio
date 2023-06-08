@@ -13,6 +13,12 @@ export default function Contacts() {
           </p>
         </div>
         <div className="container-icons-contacts">
+        <div>
+            <a href="https://twitter.com/robert79757" target="_banks">
+              <ion-icon name="logo-twitter" id="iconos-contacto-tw"></ion-icon>
+              <h3>Twitter</h3>
+            </a>
+          </div>
           <div>
             <a href="mailto:r.gabriel.f@outlook.com" target="_banks">
               <ion-icon
@@ -23,23 +29,19 @@ export default function Contacts() {
             </a>
           </div>
           <div>
-            <a href="https://wa.link/7xx82a" target="_banks">
-              <ion-icon name="logo-whatsapp" id="iconos-contacto-sw"></ion-icon>
-              <h3>Whatsapp</h3>
-            </a>
-          </div>
-          <div>
-            <a href="https://twitter.com/robert79757" target="_banks">
-              <ion-icon name="logo-twitter" id="iconos-contacto-tw"></ion-icon>
-              <h3>Twitter</h3>
-            </a>
-          </div>
-          <div>
             <a href="https://github.com/r-gabriel-f" target="_banks">
               <ion-icon name="logo-github" id="iconos-contacto-git"></ion-icon>
               <h3>Github</h3>
             </a>
           </div>
+          <div>
+            <a href="https://wa.link/7xx82a" target="_banks">
+              <ion-icon name="logo-whatsapp" id="iconos-contacto-sw"></ion-icon>
+              <h3>Whatsapp</h3>
+            </a>
+          </div>
+          
+          
           <div>
             <a
               href="https://linkedin.com/in/robert-gabriel-flores-99b903234"

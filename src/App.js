@@ -8,6 +8,7 @@ import { Services } from "./components/Services";
 import Contacts from "./components/Contacts";
 
 import { Element } from "react-scroll";
+import { Portafolio } from "./components/Portafolio";
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
         </Element>
         <Element name="servicios">
           <Services />
+        </Element>
+        <Element name="portafolio">
+          <Portafolio />
         </Element>
         <Element name="contactos">
           <Contacts />

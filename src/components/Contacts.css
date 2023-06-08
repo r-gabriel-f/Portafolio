@@ -4,16 +4,19 @@
   padding: 20px;
   box-sizing: border-box;
   margin-top: 50px;
+  background-color: #1e1f26;
+  
 }
 
 .container-div-contactas {
   margin-left: 50px;
   margin-right: 50px;
+  color: white;
 }
 
 .container-icons-contacts a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .container-div-contactas p {
   text-align: justify;
@@ -64,6 +67,7 @@
   text-align: center;
   margin: auto;
   margin-top: 50px;
+  color: white;
 }
 
 /* Estilos para pantallas pequeñas */

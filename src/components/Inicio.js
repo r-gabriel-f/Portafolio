@@ -1,12 +1,14 @@
-import React from "react";
+import {React,useEffect} from "react";
 import "./Inicio.css";
 import person from "../assets/img/yo.jpg";
 import code from "../assets/img/codigo.jpg";
-import { About } from "./About";
-import { Services } from "./Services";
-import Contacts from "./Contacts";
+
+
+
+
 
 export const Inicio = () => {
+  
   return (
     <section id="inicio" className="inicio">
       <div className="container-banner">
@@ -24,5 +26,6 @@ export const Inicio = () => {
       </div>
       
     </section>
+    
   );
 };

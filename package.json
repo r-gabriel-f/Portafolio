@@ -15,13 +15,16 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animejs": "^3.2.1",
     "axios": "^1.4.0",
     "crypto-browserify": "^3.12.0",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.2",
     "gh-pages": "^5.0.0",
+    "jquery": "^3.7.0",
     "nodemailer": "^6.9.2",
     "nodemailer-smtp-transport": "^2.7.4",
+    "particles.js": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
@@ -32,12 +35,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
- 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": [
