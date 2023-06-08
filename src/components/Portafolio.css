@@ -102,6 +102,11 @@
     margin-right: 20px;
     margin-top: 70px;
   }
+  #bp {
+   
+    margin-top: 10px;
+    
+  }
 
   .container-portafolio .iconos-portafolio {
     grid-template-columns: 1fr;
