@@ -1,4 +1,4 @@
-import {React,useEffect} from "react";
+import {React} from "react";
 import "./Inicio.css";
 import person from "../assets/img/yo.jpg";
 import code from "../assets/img/codigo.jpg";
@@ -13,7 +13,7 @@ export const Inicio = () => {
     <section id="inicio" className="inicio">
       <div className="container-banner">
         <div className="container-img">
-          <img src={person} href />
+          <img src={person} alt="Icono de responsivo" />
         </div>
         <div className="container-info">
           <h2>Hola</h2>
@@ -21,7 +21,7 @@ export const Inicio = () => {
           <h2>Desarrollador Front End</h2>
         </div>
         <div className="container-img-codi">
-          <img src={code} href />
+          <img src={code} alt="Icono de responsivo"/>
         </div>
       </div>
       
