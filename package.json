@@ -2,7 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://r-gabriel-f.github.io/portafolio",
+  "homepage": "http://r-gabriel-f.github.io/portafolio/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",

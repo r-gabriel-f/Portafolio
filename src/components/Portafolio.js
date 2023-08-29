@@ -3,6 +3,7 @@ import "../components/Portafolio.css";
 import t1 from "../assets/img/t1.png";
 import t2 from "../assets/img/t2.PNG";
 import t3 from "../assets/img/t3.png";
+import t4 from "../assets/img/t4.png";
 import Button from "@mui/material/Button";
 export const Portafolio = () => {
   return (
@@ -85,6 +86,33 @@ export const Portafolio = () => {
                   </a>
                   <a
                     href="https://github.com/r-gabriel-f/desafio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="contained" id="bp">
+                      Repositorio
+                    </Button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="image-container">
+              <p>Pokemon Api React</p>
+
+              <img src={t4} id="img-t1" alt="Icono de responsivo"></img>
+              <div className="button-container">
+                <div className="botones-portafolio">
+                  <a
+                    href="https://r-gabriel-f.github.io/pokemon/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="contained" id="bp">
+                      Sitio Web
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/r-gabriel-f/pokemon"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
