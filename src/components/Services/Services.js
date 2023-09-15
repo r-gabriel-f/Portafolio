@@ -1,11 +1,11 @@
 import React from "react";
-import "./Services.css";
-import rep from "../assets/iconos/services/resp.png";
-import inter from "../assets/iconos/services/interface.png";
-import speed from "../assets/iconos/services/speed.png";
-import social from "../assets/iconos/services/social-media.png";
-import checked from "../assets/iconos/services/checked.png";
-import seo from "../assets/iconos/services/seo.png";
+import "../Services/Services.css";
+import rep from "../../assets/iconos/services/resp.png";
+import inter from "../../assets/iconos/services/interface.png";
+import speed from "../../assets/iconos/services/speed.png";
+import social from "../../assets/iconos/services/social-media.png";
+import checked from "../../assets/iconos/services/checked.png";
+import seo from "../../assets/iconos/services/seo.png";
 
 export const Services = () => {
   return (

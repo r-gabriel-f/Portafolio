@@ -1,9 +1,10 @@
 import React from "react";
-import "../components/Portafolio.css";
-import t1 from "../assets/img/t1.png";
-import t2 from "../assets/img/t2.PNG";
-import t3 from "../assets/img/t3.png";
-import t4 from "../assets/img/t4.png";
+import "../Portafolio/Portafolio.css";
+import t1 from "../../assets/img/t1.png";
+import t2 from "../../assets/img/t2.PNG";
+import t3 from "../../assets/img/t3.png";
+import t4 from "../../assets/img/t4.png";
+import t5 from "../../assets/img/t5.png";
 import Button from "@mui/material/Button";
 export const Portafolio = () => {
   return (
@@ -113,6 +114,33 @@ export const Portafolio = () => {
                   </a>
                   <a
                     href="https://github.com/r-gabriel-f/pokemon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="contained" id="bp">
+                      Repositorio
+                    </Button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="image-container">
+              <p>Shopping cart</p>
+
+              <img src={t5} id="img-t1" alt="Icono de responsivo"></img>
+              <div className="button-container">
+                <div className="botones-portafolio">
+                  <a
+                    href="https://r-gabriel-f.github.io/carrito_de_compras/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="contained" id="bp">
+                      Sitio Web
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/r-gabriel-f/carrito_de_compras"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

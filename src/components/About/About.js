@@ -1,14 +1,14 @@
 import React from "react";
-import "./About.css";
+import "../About/About.css";
 import Button from "@mui/material/Button";
-import cv from "../assets/cv/gabriel.pdf";
+import cv from "../../assets/cv/gabriel.pdf";
 
-import html from "../assets/iconos/skills/html.png";
-import js from "../assets/iconos/skills/js.png";
-import css from "../assets/iconos/skills/css.png";
-import git from "../assets/iconos/skills/git.png";
-import angular from "../assets/iconos/skills/angular.png";
-import react from "../assets/iconos/skills/react.png";
+import html from "../../assets/iconos/skills/html.png";
+import js from "../../assets/iconos/skills/js.png";
+import css from "../../assets/iconos/skills/css.png";
+import git from "../../assets/iconos/skills/git.png";
+import angular from "../../assets/iconos/skills/angular.png";
+import react from "../../assets/iconos/skills/react.png";
 
 export const About = () => {
   return (

@@ -9,7 +9,6 @@ import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -26,20 +25,7 @@ function DrawerAppBar(props) {
     setMobileOpen((prevState) => !prevState);
   };
 
-  const handleScrollToSection = (section) => {
-    setMobileOpen(false);
-    const offset = window.innerWidth >= 600 ? -70 : 0;
-    const duration = window.innerWidth >= 600 ? 500 : 0;
-    const delay = window.innerWidth >= 600 ? 0 : 300;
-    setTimeout(() => {
-      window.scrollTo({
-        top:
-          document.getElementById(section.toLowerCase().replace(' ', '-'))
-            .offsetTop + offset,
-        behavior: 'smooth',
-      });
-    }, delay);
-  };
+  
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
@@ -55,7 +41,7 @@ function DrawerAppBar(props) {
                 duration={500}
                 offset={-70}
                 className="nav-link"
-                onClick={handleDrawerToggle} // Agregamos el evento onClick para cerrar el drawer
+                onClick={handleDrawerToggle}
               >
                 {item}
               </Link>

@@ -1,14 +1,13 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
-import DrawerAppBar from "./components/DrawerAppBar";
-import { Inicio } from "./components/Inicio";
-import { About } from "./components/About";
-
-import { Services } from "./components/Services";
-import Contacts from "./components/Contacts";
-
+import { BrowserRouter} from "react-router-dom";
+import DrawerAppBar from "./components/NavBar/DrawerAppBar";
 import { Element } from "react-scroll";
-import { Portafolio } from "./components/Portafolio";
+import { Inicio } from "./components/Inicio/Inicio";
+import { About } from "./components/About/About";
+
+import { Services } from "./components/Services/Services";
+import Contacts from "./components/Contacts/Contacts";
+import { Portafolio } from "./components/Portafolio/Portafolio";
 
 
 function App() {
