@@ -1,10 +1,10 @@
 import React from "react";
 import "../Portafolio/Portafolio.css";
-import t1 from "../../assets/img/t1.png";
-import t2 from "../../assets/img/t2.PNG";
-import t3 from "../../assets/img/t3.png";
-import t4 from "../../assets/img/t4.png";
-import t5 from "../../assets/img/t5.png";
+import t1 from "../../assets/img/t1.webp";
+import t2 from "../../assets/img/t2.webp";
+import t3 from "../../assets/img/t3.webp";
+import t4 from "../../assets/img/t4.webp";
+import t5 from "../../assets/img/t5.webp";
 import Button from "@mui/material/Button";
 export const Portafolio = () => {
   return (

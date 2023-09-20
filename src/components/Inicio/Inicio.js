@@ -1,7 +1,7 @@
 import { React } from "react";
 import "../Inicio/Inicio.css";
-import person from "../../assets/img/yo.jpg";
-import code from "../../assets/img/codigo.jpg";
+import person from "../../assets/img/yo.webp";
+import code from "../../assets/img/codigo.webp";
 
 export const Inicio = () => {
   return (
