@@ -1,6 +1,6 @@
 import { React } from "react";
 import "../Inicio/Inicio.css";
-import person from "../../assets/img/yo.jpeg";
+import person from "../../assets/img/yo.webp";
 
 export const Inicio = () => {
   return (
