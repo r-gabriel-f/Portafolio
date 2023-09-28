@@ -10,9 +10,9 @@ export const Inicio = () => {
           <img src={person} alt="Icono de responsivo" />
         </div>
         <div className="container-info">
-          <h2>¡Hola!</h2>
-          <h1>Soy Robert Gabriel</h1>
-          <h2>Frontend Developer</h2>
+          <h1>¡Hola!</h1>
+          <h2>Soy Robert Gabriel</h2>
+          <h1>Frontend Developer</h1>
         </div>
       </div>
     </div>

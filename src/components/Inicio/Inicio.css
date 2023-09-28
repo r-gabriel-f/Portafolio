@@ -24,7 +24,7 @@
   border-radius: 10px;
   box-shadow: 0 0 10px 5px #dadada;
 }
-.container-info h1 {
+.container-info h2 {
   color: black;
   -webkit-text-stroke: 0.3px white;
 }
