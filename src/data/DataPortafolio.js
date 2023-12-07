@@ -3,6 +3,7 @@ import t2 from "../assets/img/t2.webp";
 import t3 from "../assets/img/t3.webp";
 import t4 from "../assets/img/t4.webp";
 import t5 from "../assets/img/t5.webp";
+import t6 from "../assets/img/t6.webp";
 export const DataPortafolio = [
   {
     id: 1,
@@ -37,6 +38,13 @@ export const DataPortafolio = [
     id: 5,
     name: "Shopping cart",
     img: t5,
+    web: "https://r-gabriel-f.github.io/carrito_de_compras/",
+    repositori: "https://github.com/r-gabriel-f/carrito_de_compras",
+  },
+  {
+    id: 6,
+    name: "Tecnoacero s.r.l",
+    img: t6,
     web: "https://r-gabriel-f.github.io/carrito_de_compras/",
     repositori: "https://github.com/r-gabriel-f/carrito_de_compras",
   },
