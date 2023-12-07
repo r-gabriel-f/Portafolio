@@ -45,7 +45,7 @@ export const DataPortafolio = [
     id: 6,
     name: "Tecnoacero s.r.l",
     img: t6,
-    web: "https://r-gabriel-f.github.io/carrito_de_compras/",
-    repositori: "https://github.com/r-gabriel-f/carrito_de_compras",
+    web: "https://tecnoacerosrl.netlify.app",
+    repositori: "https://github.com/r-gabriel-f/tecnoacero",
   },
 ];
