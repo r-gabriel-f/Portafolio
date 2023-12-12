@@ -2,14 +2,13 @@ import React from "react";
 import "../About/About.css";
 import Button from "@mui/material/Button";
 import cv from "../../assets/cv/gabriel.pdf";
-
 import html from "../../assets/iconos/skills/html.png";
 import js from "../../assets/iconos/skills/js.png";
 import css from "../../assets/iconos/skills/css.png";
 import git from "../../assets/iconos/skills/git.png";
 import angular from "../../assets/iconos/skills/angular.png";
 import react from "../../assets/iconos/skills/react.png";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 export const About = () => {
   return (
     <section className="container-about">
@@ -37,27 +36,27 @@ export const About = () => {
         <div className="iconos">
           <div>
             <h3 id="te">HTML</h3>
-            <img src={html} id="html-icon" alt="Icono de responsivo"></img>
+            <LazyLoadImage src={html} id="html-icon" alt="Icono de responsivo"></LazyLoadImage>
           </div>
           <div>
             <h3 id="te">CSS</h3>
-            <img src={css} id="html-icon" alt="Icono de responsivo"></img>
+            <LazyLoadImage src={css} id="html-icon" alt="Icono de responsivo"></LazyLoadImage>
           </div>
           <div>
             <h3 id="te">JS</h3>
-            <img src={js} id="html-icon" alt="Icono de responsivo"></img>
+            <LazyLoadImage src={js} id="html-icon" alt="Icono de responsivo"></LazyLoadImage>
           </div>
           <div>
             <h3 id="te">ANGULAR</h3>
-            <img src={angular} id="html-icon" alt="Icono de responsivo"></img>
+            <LazyLoadImage src={angular} id="html-icon" alt="Icono de responsivo"></LazyLoadImage>
           </div>
           <div>
             <h3 id="te">REACT</h3>
-            <img src={react} id="html-icon" alt="Icono de responsivo"></img>
+            <LazyLoadImage src={react} id="html-icon" alt="Icono de responsivo"></LazyLoadImage>
           </div>
           <div>
             <h3 id="te">GIT</h3>
-            <img src={git} id="html-icon" alt="Icono de responsivo"></img>
+            <LazyLoadImage src={git} id="html-icon" alt="Icono de responsivo"></LazyLoadImage>
           </div>
         </div>
       </div>
