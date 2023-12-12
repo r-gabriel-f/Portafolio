@@ -2,7 +2,7 @@ import React from "react";
 import "../Portafolio/Portafolio.css";
 import Button from "@mui/material/Button";
 import { DataPortafolio } from "../../data/DataPortafolio";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 export const Portafolio = () => {
   return (
     <section className="container-portafolio">
@@ -17,11 +17,11 @@ export const Portafolio = () => {
             {DataPortafolio.map((proyect, i) => (
               <div key={i} className="image-container">
                 <p>{proyect.name}</p>
-                <img
+                <LazyLoadImage
                   src={proyect.img}
                   alt={proyect.name}
                   id="img-t1"
-                ></img>
+                ></LazyLoadImage>
                 <div className="button-container">
                   <div className="botones-portafolio">
                     <a
