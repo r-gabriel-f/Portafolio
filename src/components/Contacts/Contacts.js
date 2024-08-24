@@ -2,6 +2,7 @@ import React from "react";
 import "../Contacts/Contacts.css";
 
 export default function Contacts() {
+  const currentYear = new Date().getFullYear();
   return (
     <section className="container-contacts">
       <div className="con-with">
@@ -57,7 +58,7 @@ export default function Contacts() {
         </div>
         <footer className="Derechos">
           <p>
-            &copy; 2023 Robert Gabriel. <br />
+            &copy; {currentYear} Robert Gabriel. <br />
             Todos los derechos reservados.
           </p>
         </footer>
