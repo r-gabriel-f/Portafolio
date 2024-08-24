@@ -4,6 +4,7 @@ import t3 from "../assets/img/t3.webp";
 import t4 from "../assets/img/t4.webp";
 import t5 from "../assets/img/t5.webp";
 import t6 from "../assets/img/t6.webp";
+import t7 from "../assets/img/t7.webp";
 export const DataPortafolio = [
   {
     id: 1,
@@ -47,5 +48,12 @@ export const DataPortafolio = [
     img: t6,
     web: "https://tecnoacerosrl.netlify.app",
     repositori: "https://github.com/r-gabriel-f/tecnoacero",
+  },
+  {
+    id: 7,
+    name: "Dragon Ball Api Vue3",
+    img: t7,
+    web: "https://apidragonball.netlify.app/",
+    repositori: "https://github.com/r-gabriel-f/Dragonball",
   },
 ];
