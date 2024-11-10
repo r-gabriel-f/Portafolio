@@ -5,27 +5,27 @@ import { Menubar } from "primereact/menubar";
 function DrawerAppBar() {
   const items = [
     {
-      label: "Inicio",
+      label: "Home",
       icon: "pi pi-home",
 
     },
     {
-      label: "Sobre Mi",
+      label: "About",
       icon: "pi pi-user",
 
     },
     {
-      label: "Servicios",
+      label: "Services",
       icon: "pi pi-cog",
 
     },
     {
-      label: "Portafolio",
-      icon: "pi pi-images",
+      label: "Projects",
+      icon: "pi pi-briefcase",
 
     },
     {
-      label: "Contactos",
+      label: "Contact",
       icon: "pi pi-phone",
 
     },

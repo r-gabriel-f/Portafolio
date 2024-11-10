@@ -5,7 +5,11 @@ module.exports = {
   ],
   important: true,
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'fondo': "url('../src/assets/img/fondo.webp')",
+      },
+    },
   },
   plugins: [],
   corePlugins: {
