@@ -12,7 +12,7 @@ import react from "../../assets/iconos/skills/react.png";
 import { Button } from "primereact/button";
 export const About = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 h-screen">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 h-auto sm:h-screen">
       <div className="flex flex-col justify-center space-y-4">
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">About</h2>
         <h3 className="text-xl md:text-2xl">
@@ -21,7 +21,7 @@ export const About = () => {
             Front End Developer / Systems Engineer
           </span>
         </h3>
-        <p className=" leading-relaxed">
+        <p className="leading-relaxed">
           I'm a passionate frontend developer, specialized in creating modern,
           functional and responsive websites. I'm motivated to face challenges
           that drive the development of my skills and allow me to adopt new

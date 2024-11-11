@@ -1,82 +1,107 @@
 import React from "react";
-import "../Services/Services.css";
 import rep from "../../assets/iconos/services/resp.png";
 import inter from "../../assets/iconos/services/interface.png";
 import speed from "../../assets/iconos/services/speed.png";
 import social from "../../assets/iconos/services/social-media.png";
 import checked from "../../assets/iconos/services/checked.png";
 import seo from "../../assets/iconos/services/seo.png";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 export const Services = () => {
   return (
-    <section className="container-services">
-      <div className="mar-service">
-        <div className="container-obejtivo">
-          <h1>Servicios</h1>
-          <p>
-            Mi objetivo es proporcionar soluciones personalizadas y de calidad
-            para satisfacer las necesidades de mis clientes.
+    <section className="h-screen p-4">
+        <div>
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+            Services
+          </h2>
+          <p className="leading-relaxed text-lg">
+            My goal is to provide customized and quality solutions to meet the
+            needs of my clients.
           </p>
         </div>
 
-        <div className="iconos-services">
-          <div className="services-div">
-            <h3>Responsivo</h3>
-            <LazyLoadImage src={rep} id="img-icon" alt="Icono de responsivo"></LazyLoadImage>
-            <p>
-              Sistema web que se adapten y funcionen de manera óptima en
-              cualquier dispositivo. Es esencial que tu sitio web proporcione
-              una experiencia de usuario fluida y atractiva, tanto en
-              smartphones como en tablets y ordenadores de escritorio.
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="flex flex-col items-center text-center">
+            <h3 className="text-xl font-semibold">Responsive</h3>
+            <img
+              src={rep}
+              alt="Icono de responsivo"
+              className="w-16 transition-transform duration-200 hover:scale-110"
+            />
+            <p className="text-sm md:text-base">
+              Web system that adapts and works optimally on any device. It is
+              essential that your website provides a smooth and attractive user
+              experience, both on smartphones, tablets, and desktop computers.
             </p>
           </div>
-          <div className="services-div">
-            <h3>Interfaces interactivas</h3>
-            <LazyLoadImage src={inter} id="img-icon" alt="Icono de interaccion"></LazyLoadImage>
-            <p>
-              Creación de interfaces interactivas que cautivan y deleitan a los
-              usuarios con enfoque que se centra en el diseño intuitivo y
-              atractivo, brindando una experiencia única y satisfactoria.
+          <div className="flex flex-col items-center text-center">
+            <h3 className="text-xl font-semibold">Interactive interfaces</h3>
+            <img
+              src={inter}
+              alt="Icono de interacción"
+              className="w-16 transition-transform duration-200 hover:scale-110"
+            />
+            <p className="text-sm md:text-base">
+              Creation of interactive interfaces that captivate and delight
+              users with a focus on intuitive and engaging design, providing a
+              unique and satisfying experience.
             </p>
           </div>
-          <div className="services-div">
-            <h3>Optimización de rendimiento</h3>
-            <LazyLoadImage src={speed} id="img-icon" alt="Icono de rendimeinto"></LazyLoadImage>
-            <p>
-              Servicio de optimización de rendimiento se enfoca en mejorar la
-              velocidad y la eficiencia de tu sitio web para brindar una
-              experiencia excepcional a los usuarios.
+          <div className="flex flex-col items-center text-center">
+            <h3 className="text-xl font-semibold">
+              Optimization of performance
+            </h3>
+            <img
+              src={speed}
+              alt="Icono de rendimiento"
+              className="w-16 transition-transform duration-200 hover:scale-110"
+            />
+            <p className="text-sm md:text-base">
+              Performance optimization service is focused on improving the speed
+              and efficiency of your website to deliver an exceptional user
+              experience.
             </p>
           </div>
-          <div className="services-div">
-            <h3>Interacción en redes sociales</h3>
-            <LazyLoadImage src={social} id="img-icon" alt="Icono de social"></LazyLoadImage>
-            <p>
-              Servicio de interacción en redes sociales diseñado para potenciar
-              la presencia y participación de sus clientes en las plataformas
-              digitales.
+          <div className="flex flex-col items-center text-center">
+            <h3 className="text-xl font-semibold">
+              Interaction in social networks
+            </h3>
+            <img
+              src={social}
+              alt="Icono de social"
+              className="w-16 transition-transform duration-200 hover:scale-110"
+            />
+            <p className="text-sm md:text-base">
+              Social media interaction service designed to enhance your
+              customers' presence and participation on digital platforms.
             </p>
           </div>
-          <div className="services-div">
-            <h3>Mantenimiento y actualización</h3>
-            <LazyLoadImage src={checked} id="img-icon" alt="Icono de actualziacion"></LazyLoadImage>
-            <p>
-              Mantenimiento y actualización para brindar a nuestros usuarios
-              tranquilidad y asegurar que su sitio web esté siempre actualizado
-              y funcionando de manera óptima.
+          <div className="flex flex-col items-center text-center">
+            <h3 className="text-xl font-semibold">Maintenance and updating</h3>
+            <img
+              src={checked}
+              alt="Icono de actualización"
+              className="w-16 transition-transform duration-200 hover:scale-110"
+            />
+            <p className="text-sm md:text-base">
+              Maintenance and updating to give our users peace of mind and
+              ensure that your website is always up to date and working
+              optimally.
             </p>
           </div>
-          <div className="services-div">
-            <h3>SEO</h3>
-            <LazyLoadImage src={seo} id="img-icon" alt="Icono de seo"></LazyLoadImage>
-            <p>
-              Mejorar la visibilidad de tu sitio web en los motores de búsqueda
-              y ofrecer una experiencia de usuario de calidad, para aumentar el
-              ranking en los resultados de búsqueda relevantes
+          <div className="flex flex-col items-center text-center">
+            <h3 className="text-xl font-semibold">SEO</h3>
+            <img
+              src={seo}
+              alt="Icono de SEO"
+              className="w-16 transition-transform duration-200 hover:scale-110"
+            />
+            <p className="text-sm md:text-base">
+              Improve the visibility of your website in search engines and offer
+              a quality user experience to increase the ranking in relevant
+              search results.
             </p>
           </div>
         </div>
-      </div>
+
     </section>
   );
 };
