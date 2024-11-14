@@ -1,4 +1,4 @@
-import "./App.css";
+
 import { BrowserRouter } from "react-router-dom";
 import DrawerAppBar from "./components/NavBar/DrawerAppBar";
 import { Element } from "react-scroll";

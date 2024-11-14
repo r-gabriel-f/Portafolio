@@ -1,5 +1,5 @@
 import React from "react";
-import "./Encabezado.css";
+
 
 export const Encabezado = () => {
   return (

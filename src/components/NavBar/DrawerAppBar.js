@@ -1,33 +1,27 @@
 import * as React from "react";
 import { Menubar } from "primereact/menubar";
 
-
 function DrawerAppBar() {
   const items = [
     {
       label: "Home",
       icon: "pi pi-home",
-
     },
     {
       label: "About",
       icon: "pi pi-user",
-
     },
     {
       label: "Services",
       icon: "pi pi-cog",
-
     },
     {
       label: "Projects",
       icon: "pi pi-briefcase",
-
     },
     {
       label: "Contact",
       icon: "pi pi-phone",
-
     },
   ];
 
@@ -39,11 +33,10 @@ function DrawerAppBar() {
   );
 
   return (
-    <div className="card">
-      <Menubar 
-        model={items} 
-        end={end} 
-      />
+    <div 
+      className="fixed top-0 left-0 w-full z-50"
+    >
+      <Menubar model={items} end={end} />
     </div>
   );
 }
