@@ -1,52 +1,39 @@
 import React from "react";
-import "../Portafolio/Portafolio.css";
-import Button from "@mui/material/Button";
-import { DataPortafolio } from "../../data/DataPortafolio";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import {
+  DataPortafolioApi,
+  DataPortafolioPages,
+  DataPortafolioOther,
+} from "../../data/DataPortafolio";
+import { CardComponete } from "./CardComponete";
 export const Portafolio = () => {
   return (
-    <section className="container-portafolio">
-      <div className="mar-service">
-        <div className="container-obejtivo">
-          <h1>Portafolio</h1>
-          <p>Aquí puedes ver los proyectos en los que he trabajado.</p>
+    <section className="h-auto p-4">
+      <div>
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+          Projects
+        </h2>
+        <p className="leading-relaxed text-lg">
+          Here you can see the projects he worked on.
+        </p>
+      </div>
+      <div>
+        <div className="flex flex-col items-center justify-center">
+          <h3 className="text-32xl md:text-3xl font-bold tracking-tight">
+            API Consumption
+          </h3>
+          <CardComponete data={DataPortafolioApi} />
         </div>
-
-        <div className="iconos-portafolio">
-          <div className="portafolio-div">
-            {DataPortafolio.map((proyect, i) => (
-              <div key={i} className="image-container">
-                <p>{proyect.name}</p>
-                <LazyLoadImage
-                  src={proyect.img}
-                  alt={proyect.name}
-                  id="img-t1"
-                ></LazyLoadImage>
-                <div className="button-container">
-                  <div className="botones-portafolio">
-                    <a
-                      href={proyect.web}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="contained" id="bp">
-                        Sitio Web
-                      </Button>
-                    </a>
-                    <a
-                      href={proyect.repositori}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="contained" id="bp">
-                        Repositorio
-                      </Button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        <div className="flex flex-col items-center justify-center">
+          <h3 className="text-32xl md:text-3xl font-bold tracking-tight">
+            Landing Pages
+          </h3>
+          <CardComponete data={DataPortafolioPages} />
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <h3 className="text-32xl md:text-3xl font-bold tracking-tight">
+            Interactive Projects
+          </h3>
+          <CardComponete data={DataPortafolioOther} />
         </div>
       </div>
     </section>

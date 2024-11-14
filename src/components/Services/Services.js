@@ -7,7 +7,7 @@ import checked from "../../assets/iconos/services/checked.png";
 import seo from "../../assets/iconos/services/seo.png";
 export const Services = () => {
   return (
-    <section className="h-screen p-4">
+    <section className="h-auto sm:h-screen p-4">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
             Services
