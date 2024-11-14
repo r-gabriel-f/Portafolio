@@ -1,8 +1,14 @@
 import React from "react";
 import { Card } from "primereact/card";
 import { Button } from "primereact/button";
-import { Chip } from "primereact/chip";
+import { Tag } from "primereact/tag";
+
 export const CardComponete = ({ data }) => {
+  const severities = ["info", "success", "warning", "danger", "secondary", "primary", "contrast"];
+  const getSeverity = (index) => {
+    return severities[index % severities.length];
+  };
+
   return (
     <div className="container mx-auto px-4">
       <div className="flex flex-col sm:flex-row flex-wrap gap-8 justify-center">
@@ -41,7 +47,12 @@ export const CardComponete = ({ data }) => {
                 subTitle={
                   <div className="flex flex-wrap gap-2 justify-center">
                     {proyect.technology.map((tech, index) => (
-                      <Chip key={index} label={tech} />
+                        <Tag 
+                          severity={getSeverity(index)} 
+                          value={tech} 
+                          key={index} 
+                          rounded
+                        />
                     ))}
                   </div>
                 }
