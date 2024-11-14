@@ -16,19 +16,19 @@ function App() {
       <BrowserRouter>
         <div>
           <DrawerAppBar />
-          <Element name="inicio">
+          <Element name="home">
             <Inicio />
           </Element>
-          <Element name="sobre-mi">
+          <Element name="about">
             <About />
           </Element>
-          <Element name="servicios">
+          <Element name="services">
             <Services />
           </Element>
-          <Element name="portafolio">
+          <Element name="projects">
             <Portafolio />
           </Element>
-          <Element name="contactos">
+          <Element name="contact">
             <Contacts />
           </Element>
         </div>

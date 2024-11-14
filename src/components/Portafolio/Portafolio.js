@@ -7,7 +7,7 @@ import {
 import { CardComponete } from "./CardComponete";
 export const Portafolio = () => {
   return (
-    <section className="h-auto p-4">
+    <section className="h-auto pt-10 p-4">
       <div>
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
           Projects

@@ -59,8 +59,8 @@ export default function Contacts() {
 
       <footer className="mt-8 text-center text-white">
         <p>
-          &copy; {new Date().getFullYear()} Robert Gabriel. <br />
-          Todos los derechos reservados.
+          &copy; {currentYear} Robert Gabriel. <br />
+          All rights reserved.
         </p>
       </footer>
     </section>
