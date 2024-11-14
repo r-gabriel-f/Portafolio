@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // Primero importa los estilos de PrimeReact
-import 'primereact/resources/themes/arya-purple/theme.css';
+import 'primereact/resources/themes/arya-blue/theme.css';
 import 'primereact/resources/primereact.min.css';  // Agrega esta línea
 import 'primeicons/primeicons.css';
 // Después importa los estilos de tu aplicación
