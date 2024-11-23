@@ -5,6 +5,7 @@ import t4 from "../assets/img/t4.webp";
 import t5 from "../assets/img/t5.webp";
 import t6 from "../assets/img/t6.webp";
 import t7 from "../assets/img/t7.webp";
+import t8 from "../assets/img/t8.webp";
 
 export const DataPortafolioApi = [
   {
@@ -30,7 +31,14 @@ export const DataPortafolioApi = [
   },
   {
     name: "Dragon Ball Explorer",
-    technology: ["Vue", "HTML", "Tailwind CSS", "TypeScript", "TanStack", 'PrimeVue'],
+    technology: [
+      "Vue",
+      "HTML",
+      "Tailwind CSS",
+      "TypeScript",
+      "TanStack",
+      "PrimeVue",
+    ],
     img: t7,
     web: "https://apidragonball.netlify.app/",
     repositori: "https://github.com/r-gabriel-f/Dragonball",
@@ -61,5 +69,12 @@ export const DataPortafolioOther = [
     img: t5,
     web: "https://r-gabriel-f.github.io/carrito_de_compras/",
     repositori: "https://github.com/r-gabriel-f/carrito_de_compras",
+  },
+  {
+    name: "Interactive User CRUD",
+    technology: ["Vue", "HTML", "Tailwind CSS", "PrimeVue", "JavaScript", "NodeJS"],
+    img: t8,
+    web: "https://usercrud01.netlify.app/",
+    repositori: "https://github.com/r-gabriel-f/frontendcruduser",
   },
 ];
